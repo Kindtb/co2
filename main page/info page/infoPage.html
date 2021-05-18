@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Info Page</title>
+        <style>
+            #top-border{
+                background-color: #c50751;
+                padding: 10;
+                margin: 0;
+                color: white;
+            }
+            body{
+                margin: 0;
+            }
+            #title{
+                text-align: center;
+                font-size: 30px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+                font-family: fantasy;
+            }
+            #under-title{
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 5px;
+            }
+            #title-logo{
+                display: block;
+                float: left;
+                width: 150px;
+                height: 60px;
+                margin-top: 0px;
+                margin-right: -150px;
+                transition: all 0.5s;
+            }
+            #information-text{
+                text-align: center;
+                border: 2px dashed black;
+                margin-top: 5px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            #sexy-Brent{
+                margin-bottom: 15px;
+                border: #c50751 solid 2px;
+            }
+            .button {
+                border-radius: 4px;
+                border: none;
+                text-align: center;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                background-color: white;
+                color: #c50751;
+                padding: 5 9 5 9;
+                font-family: fantasy;
+                font-size: 20px;
+            }
+
+            #homepage-button{
+                margin-top: -29px;
+                float: left;
+                margin-left: 250px;
+                margin-right: -450px;
+            }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+            .button:hover span {
+                padding-right: 25px;
+            }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <div id="top-border">
+            <img id="title-logo" src="images/school-logo.jpg">
+            <p id="title">INFO PAGE CO2 METER</p>
+            <button id="homepage-button" class="button"><span>Homepage</span></button>
+            <p id="under-title">project van de klas 5INFO van het go-atheneum oudenaarde</p>
+        </div>
+
+        <div id="information-text">
+            <p id="text">hier komt alle informatie over de klas en de meter</p>
+            <img src="images/sexy-Brent.jpg" id="sexy-Brent">
+        </div>
+        
+
+
+        <script>
+            var btnHomepage = document.querySelector("#homepage-button");
+
+            btnHomepage.addEventListener("click", clickBtnHomepage);
+
+            function clickBtnHomepage() {
+                window.location = '../CO2HomePagina.html';
+            }
+        </script>
+    </body>
+</html>

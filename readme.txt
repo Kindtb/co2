@@ -1,2 +1,9 @@
-Georgette Eriel Camua
-Beverley-Jo Van  Weyenbergh
+- Georgette Eriel Camua
+- Beverley-Jo Van  Weyenbergh
+-------------------------------
+- Arno Van Steenbergen
+- Dragos Tirsan
+- Kayky Martins Menezes
+-------------------------------
+- Gwylim De Storcke
+- Amjad Khiyi

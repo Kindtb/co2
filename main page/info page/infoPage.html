@@ -39,6 +39,7 @@
                 margin-left: auto;
                 margin-right: auto;
                 width: 50%;
+                position: relative;
             }
             #sexy-Brent{
                 margin-bottom: 15px;
@@ -91,8 +92,9 @@
                 right: 0;
             }
             #discord {
-                margin-top: -471px;
-                margin-left: 5px;
+                position: absolute;
+                top: 0;
+                right: 110%;
             }
         </style>
     </head>
@@ -109,11 +111,13 @@
         <div id="information-text">
             <p id="text">hier komt alle informatie over de klas en de meter</p>
             <img src="images/sexy-Brent.jpg" id="sexy-Brent">
-        </div>
-        
-        <div id="discord">
+            
+            <div id="discord">
 			<iframe src="https://discord.com/widget?id=841235978239737896&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 		</div>
+        </div>
+        
+        
 
         <script>
             var btnHomepage = document.querySelector("#homepage-button");
